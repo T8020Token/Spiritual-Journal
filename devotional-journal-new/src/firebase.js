@@ -3,13 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyC4dW4nnm1oqFoZvLloSHpSpio4FYJg2jo",
+  authDomain: "devotional-journal-new.firebaseapp.com",
+  projectId: "devotional-journal-new",
+  storageBucket: "devotional-journal-new.firebasestorage.app",
+  messagingSenderId: "652362293319",
+  appId: "1:652362293319:web:fb94d04a81d6df3d6c9162",
+  measurementId: "G-HRXM9M50CQ"
 };
 
 const app = initializeApp(firebaseConfig);
